@@ -24,11 +24,18 @@ GEMINI_API_KEY=your-gemini-key-here  # Optional
 
 4. Run server:
 ```bash
-python main.py
-# Or: uvicorn app.main:app --reload
+uvicorn app.main:app --reload
+```
+5. Server is running on
+```bash
+http://127.0.0.1:8000 
+```
+6. You can test the API using the Swagger documentation
+```bash
+http://localhost:8000/docs
 ```
 
-## Usage
+## Other Way of Usage
 
 ### Endpoint: GET /analyze/{sector}
 
